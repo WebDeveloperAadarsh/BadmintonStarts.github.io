@@ -33,17 +33,8 @@ setInterval(function() {
       
       
       if(minutes < 10){
-      document.getElementById("sec").innerHTML = `0${minutes}`;  
+      document.getElementById("mins").innerHTML = `0${minutes}`;  
       }
-      
-      if(hrs < 10){
-      document.getElementById("sec").innerHTML = `0${hrs}`;  
-      }
-      
-      if(days < 10){
-      document.getElementById("sec").innerHTML = `0${days}`;  
-      }
-      
       
     }, 1000);
 
